@@ -215,6 +215,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9024a40a1dcb4b35ac2457b21e792b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &322303345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322303340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5de8df9424a73a354d614daf6a96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1444882335
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,24 +262,27 @@ MonoBehaviour:
     ignoreGlobalScenes: 0
     msgStepByStep: 0
     logWs: 0
-  openBrowserWhenStart: 1
-  webSocketSSL: 0
+  OpenBrowserOnStart: 1
+  webSocketSSL: 1
   kernelVersion: 
   useCustomContentServer: 0
   customContentServerUrl: http://localhost:1338/
   baseUrlMode: 1
-  baseUrlCustom: https://play.decentraland.zone/?
-  environment: 4
+  customURL: https://play.decentraland.zone/?
+  network: 0
   realm: loki
-  startInCoords: {x: 0, y: 0}
+  startInCoords: {x: 16, y: -16}
   forceLocalComms: 0
-  allWearables: 0
-  testWearables: 0
   enableTutorial: 0
   builderInWorld: 0
   soloScene: 0
-  multithreaded: 1
+  disableAssetBundles: 0
+  enableGLTFast: 0
+  enableDebugMode: 0
   debugPanelMode: 0
+  disableGLTFDownloadThrottle: 0
+  multithreaded: 1
+  runPerformanceMeterToolDuringLoading: 0
 --- !u!4 &1444882337
 Transform:
   m_ObjectHideFlags: 0

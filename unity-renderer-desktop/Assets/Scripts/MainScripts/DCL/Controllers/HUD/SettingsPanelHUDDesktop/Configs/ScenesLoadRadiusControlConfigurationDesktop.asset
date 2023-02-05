@@ -21,6 +21,6 @@ MonoBehaviour:
   flagsThatOverrideMe: []
   isBeta: 0
   sliderMinValue: 1
-  sliderMaxValue: 4
+  sliderMaxValue: 32
   storeValueAsNormalized: 0
   wholeNumbers: 1
